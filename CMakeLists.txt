@@ -28,6 +28,3 @@ add_library(imguizmo STATIC
             ${HEADERS}
             ${SOURCE}
             )
-
-target_link_libraries(imguizmo
-        OpenGL::GL)
